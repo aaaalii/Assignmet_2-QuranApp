@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/surahName"
-        android:layout_width="113dp"
-        android:layout_height="39dp"
-        android:text="surahName"
+        android:layout_width="146dp"
+        android:layout_height="57dp"
         android:gravity="center"
+        android:text="surahName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,27 +19,25 @@
 
     <ListView
         android:id="@+id/surah"
-        android:layout_width="382dp"
-        android:layout_height="385dp"
+        android:layout_width="358dp"
+        android:layout_height="377dp"
         android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="254dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="162dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:gravity="center"
         android:inputType="number"
-        android:text="Enter ayat no. to toogle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/surahName" />
 
@@ -47,10 +45,10 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="80dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
