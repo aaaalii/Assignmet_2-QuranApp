@@ -8,20 +8,18 @@
 
     <ListView
         android:id="@+id/surahsView"
-        android:layout_width="365dp"
-        android:layout_height="578dp"
-        android:layout_marginTop="152dp"
+        android:layout_width="413dp"
+        android:layout_height="576dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="173dp"
         android:layout_height="71dp"
-        android:text="KhushAmdeed"
-        app:layout_constraintBottom_toTopOf="@+id/surahsView"
+        android:gravity="center"
+        android:text="QuranApp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:gravity="center"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
