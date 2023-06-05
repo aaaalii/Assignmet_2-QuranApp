@@ -6,7 +6,7 @@ import java.util.List;
  * Created by Haq Nawaz on 1/25/2016.
  */
 public class QuranArabicText {
-    public String[] QuranArabicText = new String[]
+    public static String[] QuranArabicText = new String[]
             {
                     "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
                     "اَلۡحَمۡدُ لِلّٰہِ رَبِّ الۡعٰلَمِیۡنَ ۙ﴿۱﴾",
