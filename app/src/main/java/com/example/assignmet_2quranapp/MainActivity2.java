@@ -50,21 +50,20 @@ public class MainActivity2 extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     if(et.getText()== null){
-                        return;
+
                     }
                     else{
-                        int ayat = Integer.parseInt(et.getText().toString());
+                        int aayat = Integer.parseInt(et.getText().toString());
+                        int total = st - end - 1;
 
-                        int total = st - end;
-
-                        if(ayat>total){
-                            String ac =  "Surah " + surah + " has max " + (total) + " ayats.";
+                        if(aayat >= total){
+                            String ac =  "Surah " + name + " has max " + (total) + " ayats.";
                             Toast.makeText(MainActivity2.this, ac, Toast.LENGTH_SHORT).show();
                         }
                         else{
                             Intent in = new Intent(MainActivity2.this , MainActivity3.class);
                             in.putExtra("surah" , name);
-                            in.putExtra("ayat" , surah.get(ayat));
+                            in.putExtra("ayat" , surah.get(aayat));
 
                             startActivity(in);
                         }
